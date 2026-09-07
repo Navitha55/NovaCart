@@ -83,9 +83,9 @@ const Navbar = () => {
                 className={styles.links}
             >
 
-                <NavLink to="/">
+                <Link to="/">
                     Home
-                </NavLink>
+                </Link>
 
 
                 <NavLink to="/cart">
