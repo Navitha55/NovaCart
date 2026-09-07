@@ -1,62 +1,23 @@
 import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
 
-import ReactDOM
-  from "react-dom/client";
+import App from "./App.jsx";
+import { store } from "./redux/store.js";
+import { AuthProvider } from "./context/AuthContext.jsx";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
 
-import {
-
-  Provider
-
-} from "react-redux";
-
-import App
-  from "./App";
-
-import {
-
-  store
-
-} from "./redux/store";
-
-import {
-
-  AuthProvider
-
-} from "./context/AuthContext";
-
-import {
-
-  ThemeProvider
-
-} from "./context/ThemeContext";
-
-import "./App.css";
-
-
-ReactDOM.createRoot(
-
-  document.getElementById("root")
-
-).render(
-
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-
-    <Provider
-      store={store}
-    >
-
-      <AuthProvider>
-
+    <BrowserRouter basename="/NovaCart">
+      <Provider store={store}>
         <ThemeProvider>
-
-          <App />
-
+          <AuthProvider>
+            <App />
+          </AuthProvider>
         </ThemeProvider>
-
-      </AuthProvider>
-
-    </Provider>
-
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>
-
 );
