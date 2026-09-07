@@ -1,0 +1,53 @@
+.container {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 100px;
+
+}
+
+
+.container form {
+
+    width: 350px;
+
+    padding: 30px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 10px;
+
+    background: var(--card);
+
+}
+
+
+.container input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 20px 0;
+
+}
+
+
+.container button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #2563eb;
+
+    color: white;
+
+}

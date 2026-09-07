@@ -1,0 +1,86 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+
+        Arial,
+        sans-serif;
+
+    background:
+        var(--background);
+
+    color:
+        var(--text);
+
+}
+
+
+[data-theme="light"] {
+
+    --background:
+        #f8fafc;
+
+    --text:
+        #111827;
+
+    --card:
+        #ffffff;
+
+    --border:
+        #e5e7eb;
+
+    --navbar:
+        #ffffff;
+
+}
+
+
+[data-theme="dark"] {
+
+    --background:
+        #111827;
+
+    --text:
+        #f9fafb;
+
+    --card:
+        #1f2937;
+
+    --border:
+        #374151;
+
+    --navbar:
+        #1f2937;
+
+}
+
+
+button {
+
+    font-family: inherit;
+
+}
+
+
+input,
+
+select {
+
+    font-family: inherit;
+
+}
+
+
+a {
+
+    color: inherit;
+
+}

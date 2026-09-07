@@ -1,0 +1,58 @@
+.container {
+
+    width: min(600px, 90%);
+
+    margin: 50px auto;
+
+}
+
+
+.container form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+.container input,
+
+.container select {
+
+    padding: 12px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 6px;
+
+}
+
+
+.container button {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #16a34a;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+.success {
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
