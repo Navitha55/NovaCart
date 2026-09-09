@@ -2,12 +2,6 @@
 
 A modern React-based E-Commerce application built as a comprehensive React skill test. This project combines routing, API integration, Redux Toolkit, Context API, authentication simulation, performance optimization, custom hooks, error boundaries, and lazy loading.
 
-## 🚀 Live Demo
-
-🔗 **Live Application:** Add your GitHub Pages deployment link here
-
----
-
 ## 📌 Project Overview
 
 The E-Commerce Mini App allows users to:
